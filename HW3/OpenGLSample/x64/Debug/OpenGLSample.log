@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中繼目錄 (x64\Debug\) 包含從其他專案 (CAMD_Lab2.vcxproj, OpenGLSample.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  main.cpp
+c:\users\user\desktop\camd_hw\hw3\openglsample\main.cpp(23): warning C4005: 'HEIGHT': 巨集重複定義
+  c:\users\user\desktop\camd_hw\hw3\openglsample\header.h(22): note: 請參閱 'HEIGHT' 之前的定義
+c:\users\user\desktop\camd_hw\hw3\openglsample\main.cpp(24): warning C4005: 'WIDTH': 巨集重複定義
+  c:\users\user\desktop\camd_hw\hw3\openglsample\header.h(23): note: 請參閱 'WIDTH' 之前的定義
+c:\users\user\desktop\camd_hw\hw3\openglsample\main.cpp(87): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+c:\users\user\desktop\camd_hw\hw3\openglsample\main.cpp(677): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+  OpenGLSample.vcxproj -> C:\Users\User\Desktop\CAMD_HW\HW3\x64\Debug\CAMD_Lab3.exe

@@ -1,0 +1,530 @@
+﻿已經開始建置於 2020/9/23 下午 07:13:10。
+     1>節點 2 (Build 目標) 上的專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj"。
+     1>以工具版本 "15.0" 建置。
+       由於 false 條件，因此已略過工作 "EnableIntermediateOutputPathMismatchWarning"; ('$(RestoreProjectStyle)' == 'PackageReference') 評估為 ('' == 'PackageReference')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "_CheckForInvalidConfigurationAndPlatform" (目標 "SetTelemetryEnvironmentVariables" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Error"; ( '$(_InvalidConfigurationError)' == 'true' ) 評估為 ( '' == 'true' )。
+       由於 false 條件，因此已略過工作 "Warning"; ( '$(_InvalidConfigurationWarning)' == 'true' ) 評估為 ( '' == 'true' )。
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "Message" 工作。
+       工作 "Message"
+         Configuration=Release
+       工作 "Message" 執行完成。
+       工作 "Message"
+         Platform=Win32
+       工作 "Message" 執行完成。
+       由於 false 條件，因此已略過工作 "Error"; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) 評估為 ('D:\碩一上\CAMD\SAMPLE\OpenGLSample\Release\' != '' and !HasTrailingSlash('D:\碩一上\CAMD\SAMPLE\OpenGLSample\Release\'))。
+       由於 false 條件，因此已略過工作 "Error"; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) 評估為 ('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由於 false 條件，因此已略過工作 "Error"; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) 評估為 ('Release\' != '' and !HasTrailingSlash('Release\'))。
+       由於 false 條件，因此已略過工作 "Error"; ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) 評估為 ( 'D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\obj\' != '' And 'D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\obj\' != 'D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\obj\' )。
+       由於 false 條件，因此已略過工作 "Warning"; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) 評估為 ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\obj\' )。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_CheckForInvalidConfigurationAndPlatform" 建置完成。
+       已略過目標 "_CheckForInvalidConfigurationAndPlatform"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" 中的目標 "SetTelemetryEnvironmentVariables" (目標 "Build" 與它有依存關係):
+       正在使用組件 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" 中的 "SetEnv" 工作。
+       工作 "SetEnv"
+         VSTEL_SolutionSessionID={15028EF0-1B9E-4A95-B4AE-3BD90CB42180}
+       工作 "SetEnv" 執行完成。
+       工作 "SetEnv"
+         VSTEL_CurrentSolutionBuildID=90329000
+       工作 "SetEnv" 執行完成。
+       工作 "SetEnv"
+         VSTEL_ProjectID={3DB81C5D-0B39-46CA-869C-7028BAEEBAD8}
+       工作 "SetEnv" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "SetTelemetryEnvironmentVariables" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 中的目標 "_PrepareForBuild" (目標 "Build" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "CreateItem"; ('%(CustomBuild.IncludeFileToTool)'!='') 評估為 (''!='')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_PrepareForBuild" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_PrepareForReferenceResolution" (目標 "ResolveReferences" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Message"; ('$(_REFERENCE_DEBUG)'=='true') 評估為 (''=='true')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_PrepareForReferenceResolution" 建置完成。
+       由於 false 條件，因此已略過工作 "ComputeCrtSDKReference"; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') 評估為 ('main.cpp'!='' and 'false'=='true' and '' != 'false')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "BeforeResolveReferences" (目標 "ResolveReferences" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BeforeResolveReferences" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "AssignProjectConfiguration" (目標 "ResolveReferences" 與它有依存關係):
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "AssignProjectConfiguration" 工作。
+       工作 "AssignProjectConfiguration"
+       工作 "AssignProjectConfiguration" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AssignProjectConfiguration" 建置完成。
+       已略過目標 "AssignProjectConfiguration"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "_SplitProjectReferencesByFileExistence" (目標 "PrepareProjectReferences" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "ResolveNonMSBuildProjectOutput"; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') 評估為 ('true'=='true' and ''!='')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_SplitProjectReferencesByFileExistence" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "_GetProjectReferenceTargetFrameworkProperties" (目標 "PrepareProjectReferences" 與它有依存關係):
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "MSBuild" 工作。
+       工作 "MSBuild"
+       工作 "MSBuild" 執行完成。
+       由於 false 條件，因此已略過工作 "GetReferenceNearestTargetFrameworkTask"; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') 評估為 ('0' != '0' and '.NETFramework,Version=v4.0' != '')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_GetProjectReferenceTargetFrameworkProperties" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "PrepareProjectReferences" (目標 "ResolveProjectReferences" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "PrepareProjectReferences" 建置完成。
+       由於 false 條件，因此已略過工作 "_RemoveNameMetadataFromProjectReferenceItems"; ('@(ProjectReference)'!='') 評估為 (''!='')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "ResolveProjectReferences" (目標 "ResolveReferences" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "MSBuild"; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') 評估為 ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '')。
+       由於 false 條件，因此已略過工作 "MSBuild"; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') 評估為 ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '')。
+       由於 false 條件，因此已略過工作 "MSBuild"; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') 評估為 ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')。
+       由於 false 條件，因此已略過工作 "MSBuild"; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') 評估為 ('' == 'true' and '' != '' and 'true' == 'true' and '' != '')。
+       由於 false 條件，因此已略過工作 "Warning"; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') 評估為 ('' != '' and '' != '')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ResolveProjectReferences" 建置完成。
+       由於 false 條件，因此已略過工作 "FindInvalidProjectReferences"; ('$(FindInvalidProjectReferences)' == 'true') 評估為 ('' == 'true')。
+       由於 false 條件，因此已略過工作 "ResolveNativeReferences"; ('@(NativeReference)'!='') 評估為 (''!='')。
+       已略過目標 "_PrepareForReferenceResolution"。先前的建置已順利完成。
+       已略過目標 "ResolveProjectReferences"。先前的建置已順利完成。
+       由於 false 條件，因此已略過工作 "FindInvalidProjectReferences"; ('$(FindInvalidProjectReferences)' == 'true') 評估為 ('' == 'true')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" 中的目標 "GetFrameworkPaths" (目標 "ResolveAssemblyReferences" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "GetFrameworkPaths" 建置完成。
+       已略過目標 "_PrepareForReferenceResolution"。先前的建置已順利完成。
+       由於 false 條件，因此已略過工作 "GetWinFXPath"; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) 評估為 (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))。
+       已略過目標 "GetFrameworkPaths"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "GetReferenceAssemblyPaths" (目標 "ResolveAssemblyReferences" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "GetReferenceAssemblyPaths"; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) 評估為 ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "GetReferenceAssemblyPaths" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" 中的目標 "SetBuildDefaultEnvironmentVariables" (目標 "PrepareForBuild" 與它有依存關係):
+       工作 "SetEnv"
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\libnvvp;C:\VulkanSDK\1.1.126.0\Bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2019a\runtime\win64;C:\Program Files\MATLAB\R2019a\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Programs\Python\Python38;D:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\opencv3.4\opencv\build\x64\vc14\bin;C:\Users\User\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\User\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python35\;D:\Anaconda3;D:\Anaconda3\Library\mingw-w64\bin;D:\Anaconda3\Library\usr\bin;D:\Anaconda3\Library\bin;D:\Anaconda3\Scripts;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\Desktop\VTKtest\VTK-9.0.0.rc1\build\bin\Debug;D:\Microsoft VS Code\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;
+       工作 "SetEnv" 執行完成。
+       工作 "SetEnv"
+         LIB=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\lib\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x86;;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86
+       工作 "SetEnv" 執行完成。
+       工作 "SetEnv"
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\lib\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;
+       工作 "SetEnv" 執行完成。
+       工作 "SetEnv"
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       工作 "SetEnv" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "SetBuildDefaultEnvironmentVariables" 建置完成。
+       由於 false 條件，因此已略過工作 "SetUserMacroEnvironmentVariables"; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') 評估為 ('' != '' and '' != 'true')。
+       已略過目標 "_PrepareForReferenceResolution"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "GetResolvedWinMD" (目標 "PrepareForBuild" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "GetResolvedWinMD" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" 中的目標 "PlatformPrepareForBuild" (目標 "PrepareForBuild" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(_Error64bitToolsNotInstalled)' == 'true') 評估為 ('' == 'true')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == '') 評估為 (''!='true' and 'true' != 'true' and 'v141' == '')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v110') 評估為 (''!='true' and 'true' != 'true' and 'v141' == 'v110')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100') 評估為 (''!='true' and 'true' != 'true' and 'v141' == 'v100')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90') 評估為 (''!='true' and 'true' != 'true' and 'v141' == 'v90')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110') 評估為 (''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "PlatformPrepareForBuild" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets" 中的目標 "_CheckWindowsSDKInstalled" (目標 "PrepareForBuild" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(WindowsSDKInstalled)' != 'true') 評估為 ('true' != 'true')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true) 評估為 ('false' != 'true' and 'true' != true)。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_CheckWindowsSDKInstalled" 建置完成。
+       已略過目標 "GetFrameworkPaths"。先前的建置已順利完成。
+       已略過目標 "GetReferenceAssemblyPaths"。先前的建置已順利完成。
+       由於 false 條件，因此已略過工作 "AssignLinkMetadata"; ( '$(SynthesizeLinkMetadata)' == 'true' ) 評估為 ( '' == 'true' )。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" 中的目標 "SetCABuildNativeEnvironmentVariables" (目標 "PrepareForBuild" 與它有依存關係):
+       工作 "SetEnv"
+         CAExcludePath=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       工作 "SetEnv" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "SetCABuildNativeEnvironmentVariables" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 中的目標 "EnsureNuGetPackageBuildImports" (目標 "PrepareForBuild" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Error"; (!Exists('..\packages\glm.0.9.9.600\build\native\glm.targets')) 評估為 (!Exists('..\packages\glm.0.9.9.600\build\native\glm.targets'))。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "EnsureNuGetPackageBuildImports" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "PrepareForBuild" (目標 "ResolveAssemblyReferences" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') 評估為 ('' != 'true' and 'true' != 'true')。
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "MakeDir" 工作。
+       工作 "MakeDir"
+       工作 "MakeDir" 執行完成。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') 評估為 (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) 評估為 (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' ))。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') 評估為 (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\'=='' and '' != 'true' and 'v141'=='v90')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true') 評估為 (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\'=='' and '' != 'true')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') 評估為 (''!='true' and 'C:\Program Files (x86)\Windows Kits\10\'=='' and '' != 'true')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(IntDirTrailingSlashWarning)'=='true') 評估為 (''!='true' and ''=='true')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(OutDirTrailingSlashWarning)'=='true') 評估為 (''!='true' and ''=='true')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') 評估為 ('' != '' and ''!='true')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') 評估為 ('' != 'true' and '' == 'true')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true')) 評估為 (''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true'))。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(DesignTimeBuild)' != 'true' and '$(SpectreMitigation)' != '' and '$(SpectreMitigation)' != 'false' and (('$(_VC_Target_Library_Platform)' == 'OneCore' and !Exists('$(VC_LibraryPath_VC_x86_OneCore)')) or ('$(_VC_Target_Library_Platform)' == 'Desktop' and !Exists('$(VC_LibraryPath_VC_x86_Desktop)')))) 評估為 ('' != 'true' and 'false' != '' and 'false' != 'false' and (('Desktop' == 'OneCore' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\onecore\x86')) or ('Desktop' == 'Desktop' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86'))))。
+       工作 "MakeDir"
+       工作 "MakeDir" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "PrepareForBuild" 建置完成。
+       已略過目標 "_PrepareForReferenceResolution"。先前的建置已順利完成。
+       由於 false 條件，因此已略過工作 "ComputeCrtSDKReference"; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') 評估為 ('main.cpp'!='' and 'false'=='true' and '' != 'false')。
+       由於 false 條件，因此已略過工作 "GetInstalledSDKLocations"; ('@(SDKReference)' != '') 評估為 ('' != '')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "ResolveSDKReferences" (目標 "ResolveAssemblyReferences" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "ResolveSDKReference"; ('@(SDKReference)'!='') 評估為 (''!='')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ResolveSDKReferences" 建置完成。
+       已略過目標 "ResolveSDKReferences"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "ExpandSDKReferences" (目標 "ResolveAssemblyReferences" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "GetSDKReferenceFiles"; ('@(ResolvedSDKReference)'!='') 評估為 (''!='')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ExpandSDKReferences" 建置完成。
+       由於 false 條件，因此已略過工作 "ResolveNuGetPackageAssets"; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) 評估為 ('true' == 'true' and exists('obj\project.assets.json'))。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "ResolveAssemblyReferences" (目標 "ResolveReferences" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "ResolveAssemblyReference"; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') 評估為 (''!='' or ''!='' or '' != '')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ResolveAssemblyReferences" 建置完成。
+       由於 false 條件，因此已略過工作 "GenerateBindingRedirects"; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') 評估為 ('' == 'true' and 'true' == 'true')。
+       由於 false 條件，因此已略過工作 "GenerateBindingRedirectsUpdateAppConfig"; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) 評估為 ('' == 'true' and 'true' == 'true' and Exists('Release\OpenGLSample.exe.config'))。
+       由於 false 條件，因此已略過工作 "ResolveComReferences"; ('@(COMReference)'!='' or '@(COMFileReference)'!='') 評估為 (''!='' or ''!='')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "AfterResolveReferences" (目標 "ResolveReferences" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AfterResolveReferences" 建置完成。
+       由於 false 條件，因此已略過工作 "ImplicitlyExpandDesignTimeFacades"; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') 評估為 ('' == 'true')。
+       由於 false 條件，因此已略過工作 "ResolveTestReferences"; ('@(Shadow)'!='') 評估為 (''!='')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "ResolveReferences" (目標 "Build" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ResolveReferences" 建置完成。
+       已略過目標 "PrepareForBuild"。先前的建置已順利完成。
+       已略過目標 "PrepareForBuild"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "InitializeBuildStatus" (目標 "Build" 與它有依存關係):
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "ReadLinesFromFile" 工作。
+       工作 "ReadLinesFromFile"
+       工作 "ReadLinesFromFile" 執行完成。
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "WriteLinesToFile" 工作。
+       工作 "WriteLinesToFile"
+       工作 "WriteLinesToFile" 執行完成。
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "Touch" 工作。
+       工作 "Touch"
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\OpenGLSample.tlog\unsuccessfulbuild"。
+       工作 "Touch" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "InitializeBuildStatus" 建置完成。
+       已略過目標 "PrepareProjectReferences"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "BuildGenerateSourcesTraverse" (目標 "BuildGenerateSources" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "MSBuild"; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') 評估為 ('' == 'true' and '' != '' and '' != '' and '' == 'true')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BuildGenerateSourcesTraverse" 建置完成。
+       已略過目標 "PrepareForBuild"。先前的建置已順利完成。
+       已略過目標 "ResolveReferences"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 中的目標 "BeforeBuildGenerateSources" (目標 "_BuildGenerateSourcesAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BeforeBuildGenerateSources" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 中的目標 "PreBuildEvent" (目標 "_BuildGenerateSourcesAction" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Message"; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') 評估為 ('' != '' and '' != '')。
+       由於 false 條件，因此已略過工作 "Exec"; ('%(PreBuildEvent.Command)' != '') 評估為 ('' != '')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "PreBuildEvent" 建置完成。
+       由於 false 條件，因此已略過工作 "CustomBuild"; ('@(CustomBuild)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "FxExport"; ('@(FxCompile)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "FxCompile"; ('@(FxCompile)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "_CreateCopyFileItems"; ('@(CopyFileToFolders)' != '') 評估為 ('' != '')。
+       已略過目標 "PrepareForBuild"。先前的建置已順利完成。
+       已略過目標 "InitializeBuildStatus"。先前的建置已順利完成。
+       已略過目標 "SetBuildDefaultEnvironmentVariables"。先前的建置已順利完成。
+       由於 false 條件，因此已略過工作 "SetUserMacroEnvironmentVariables"; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') 評估為 ('' != '' and '' != 'true')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_SelectedFiles" (目標 "CopyFileToFolders" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_SelectedFiles" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 中的目標 "CopyFileToFolders" (目標 "_BuildGenerateSourcesAction" 與它有依存關係):
+       正在使用組件 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" 中的 "GetOutOfDateItems" 工作。
+       工作 "GetOutOfDateItems"
+       工作 "GetOutOfDateItems" 執行完成。
+       由於 false 條件，因此已略過工作 "Copy"; ('@(_OutOfDateCopyFile)' != '') 評估為 ('' != '')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "CopyFileToFolders" 建置完成。
+       由於 false 條件，因此已略過工作 "Xsd"; ('@(Xsd)' != '') 評估為 ('' != '')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_Xsd" (目標 "_BuildGenerateSourcesAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_Xsd" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "MakeDirsForMidl" (目標 "_Midl" 與它有依存關係):
+       工作 "Makedir"
+       工作 "Makedir" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "MakeDirsForMidl" 建置完成。
+       由於 false 條件，因此已略過工作 "Midl"; ('@(Midl)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "CustomBuild"; ('@(CustomBuild)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "FxExport"; ('@(FxCompile)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "FxCompile"; ('@(FxCompile)' != '') 評估為 ('' != '')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeMIDLGeneratedCompileInputs" (目標 "_Midl" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeMIDLGeneratedCompileInputs" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "AfterMidl" (目標 "_Midl" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AfterMidl" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_Midl" (目標 "_BuildGenerateSourcesAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_Midl" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 中的目標 "AfterBuildGenerateSources" (目標 "_BuildGenerateSourcesAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AfterBuildGenerateSources" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "AfterBuildGenerateSourcesEvent" (目標 "_BuildGenerateSourcesAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AfterBuildGenerateSourcesEvent" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_BuildGenerateSourcesAction" (目標 "BuildGenerateSources" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_BuildGenerateSourcesAction" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "BuildGenerateSources" (目標 "Build" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BuildGenerateSources" 建置完成。
+       已略過目標 "PrepareProjectReferences"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "BuildCompileTraverse" (目標 "BuildCompile" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "MSBuild"; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') 評估為 ('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BuildCompileTraverse" 建置完成。
+       已略過目標 "PrepareForBuild"。先前的建置已順利完成。
+       已略過目標 "ResolveReferences"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "BeforeClCompile" (目標 "_ClCompile" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BeforeClCompile" 建置完成。
+       已略過目標 "ComputeMIDLGeneratedCompileInputs"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeCLInputPDBName" (目標 "_ClCompile" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeCLInputPDBName" 建置完成。
+       已略過目標 "ResolveReferences"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeReferenceCLInput" (目標 "_ClCompile" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "WriteLinesToFile"; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') 評估為 ((''!='') and '' != 'true')。
+       由於 false 條件，因此已略過工作 "Message"; ('$(_REFERENCE_DEBUG)'=='true') 評估為 (''=='true')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeReferenceCLInput" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "WarnCompileDuplicatedFilename" (目標 "_ClCompile" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "VCMessage"; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') 評估為 ('' != 'true' and 'main.cpp' != 'main.cpp' and 'Release\' == 'Release\')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "WarnCompileDuplicatedFilename" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 中的目標 "FixupCLCompileOptions" (目標 "_ClCompile" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "FixupCLCompileOptions" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "MakeDirsForCl" (目標 "_ClCompile" 與它有依存關係):
+       工作 "MakeDir"
+       工作 "MakeDir" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "MakeDirsForCl" 建置完成。
+       已略過目標 "_SelectedFiles"。先前的建置已順利完成。
+       已略過目標 "ComputeMIDLGeneratedCompileInputs"。先前的建置已順利完成。
+       已略過目標 "ComputeCLInputPDBName"。先前的建置已順利完成。
+       已略過目標 "ComputeReferenceCLInput"。先前的建置已順利完成。
+       已略過目標 "WarnCompileDuplicatedFilename"。先前的建置已順利完成。
+       已略過目標 "FixupCLCompileOptions"。先前的建置已順利完成。
+       已略過目標 "_SelectedFiles"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "SelectCustomBuild" (目標 "SelectClCompile" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "SelectCustomBuild" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "SelectClCompile" (目標 "ClCompile" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "SelectClCompile" 建置完成。
+       由於 false 條件，因此已略過工作 "GenerateTargetFrameworkMonikerAttribute"; ('$(GenerateTargetFrameworkAttribute)' == 'true') 評估為 ('false' == 'true')。
+       由於 false 條件，因此已略過工作 "ManagedIncrementalBuildPreProcessDependencyGraph"; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') 評估為 ('main.cpp' != '' and 'false' == 'True')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 中的目標 "ClCompile" (目標 "_ClCompile" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Delete"; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) 評估為 ('ProgramDatabase' != '' and 'ProgramDatabase' != 'None' and 'ProgramDatabase' != 'OldStyle' and 'Release\vc141.pdb' != '' and !Exists(Release\vc141.pdb))。
+       由於 false 條件，因此已略過工作 "CL"; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') 評估為 ('NotUsing' == 'Create' and ''!='true' and '' == '')。
+       正在使用組件 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" 中的 "CL" 工作。
+       工作 "CL"
+         讀取追蹤記錄檔:
+         	Release\OpenGLSample.tlog\CL.read.1.tlog
+         D:\碩一上\CAMD\SAMPLE\OPENGLSAMPLE\OPENGLSAMPLE\MAIN.CPP 的輸出:
+         	D:\碩一上\CAMD\SAMPLE\OPENGLSAMPLE\OPENGLSAMPLE\RELEASE\MAIN.OBJ
+         所有輸出都是最新的。
+       工作 "CL" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ClCompile" 建置完成。
+       由於 false 條件，因此已略過工作 "RunSelectedFileNativeCodeAnalysis"; ('$(RunCppAnalysis)'=='true' and '$(SelectedFiles)'!='') 評估為 ('false'=='true' and ''!='')。
+       由於 false 條件，因此已略過工作 "ManagedIncrementalBuildPostProcessDependencyGraph"; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') 評估為 ('main.cpp' != '' and 'false' == 'True')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "AfterClCompile" (目標 "_ClCompile" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AfterClCompile" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_ClCompile" (目標 "_BuildCompileAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_ClCompile" 建置完成。
+       由於 false 條件，因此已略過工作 "_ResGen"; ('@(EmbeddedResource)'!='') 評估為 (''!='')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "BeforeResourceCompile" (目標 "_ResourceCompile" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BeforeResourceCompile" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "MakeDirsForResourceCompile" (目標 "_ResourceCompile" 與它有依存關係):
+       工作 "MakeDir"
+       工作 "MakeDir" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "MakeDirsForResourceCompile" 建置完成。
+       由於 false 條件，因此已略過工作 "ResourceCompile"; ('@(ResourceCompile)' != '') 評估為 ('' != '')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "AfterResourceCompile" (目標 "_ResourceCompile" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AfterResourceCompile" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_ResourceCompile" (目標 "_BuildCompileAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_ResourceCompile" 建置完成。
+       由於 false 條件，因此已略過工作 "_ImpLib"; ('$(ImpLibCompiled)' == 'true') 評估為 ('' == 'true')。
+       由於 false 條件，因此已略過工作 "_Lib"; ('$(LibCompiled)' == 'true') 評估為 ('' == 'true')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "AfterBuildCompileEvent" (目標 "_BuildCompileAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AfterBuildCompileEvent" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_BuildCompileAction" (目標 "BuildCompile" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_BuildCompileAction" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "BuildCompile" (目標 "Build" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BuildCompile" 建置完成。
+       已略過目標 "PrepareProjectReferences"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "BuildLinkTraverse" (目標 "BuildLink" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "MSBuild"; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') 評估為 ('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BuildLinkTraverse" 建置完成。
+       已略過目標 "PrepareForBuild"。先前的建置已順利完成。
+       已略過目標 "ResolveReferences"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeLegacyManifestEmbedding" (目標 "_BuildLinkAction" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "VCMessage"; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') 評估為 ('' == 'true' and '' == 'true')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeLegacyManifestEmbedding" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "BeforeLink" (目標 "_Link" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BeforeLink" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeRCOutputs" (目標 "ComputeRCGeneratedLinkInputs" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeRCOutputs" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeRCGeneratedLinkInputs" (目標 "_Link" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeRCGeneratedLinkInputs" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeManifestGeneratedLinkerInputs" (目標 "_Link" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeManifestGeneratedLinkerInputs" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeCustomBuildOutput" (目標 "_Link" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "CreateItem"; ('%(CustomBuildOutputs.OutputItemType)'!='') 評估為 (''!='')。
+       工作 "MakeDir"
+       工作 "MakeDir" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeCustomBuildOutput" 建置完成。
+       已略過目標 "ComputeMIDLGeneratedCompileInputs"。先前的建置已順利完成。
+       已略過目標 "ComputeCLInputPDBName"。先前的建置已順利完成。
+       已略過目標 "ComputeReferenceCLInput"。先前的建置已順利完成。
+       已略過目標 "WarnCompileDuplicatedFilename"。先前的建置已順利完成。
+       已略過目標 "FixupCLCompileOptions"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeCLOutputs" (目標 "ComputeCLGeneratedLinkInputs" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeCLOutputs" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeCLGeneratedLinkInputs" (目標 "_Link" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeCLGeneratedLinkInputs" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeLinkInputsFromProject" (目標 "_Link" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeLinkInputsFromProject" 建置完成。
+       由於 false 條件，因此已略過工作 "ComputeReferenceLinkInputs"; (@(ProjectReference) != '') 評估為 ( != '')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeManifestInputsTargets" (目標 "_Link" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeManifestInputsTargets" 建置完成。
+       由於 false 條件，因此已略過工作 "ManifestResourceCompile"; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') 評估為 ('MT' == 'LINK' and '' != '')。
+       由於 false 條件，因此已略過工作 "AssignWinFXEmbeddedResource"; ('@(WinFXEmbeddedResource)' != '') 評估為 ('' != '')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "AssignTargetPaths" (目標 "PrepareResourceNames" 與它有依存關係):
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "AssignTargetPath" 工作。
+       工作 "AssignTargetPath"
+       工作 "AssignTargetPath" 執行完成。
+       工作 "AssignTargetPath"
+       工作 "AssignTargetPath" 執行完成。
+       工作 "AssignTargetPath"
+       工作 "AssignTargetPath" 執行完成。
+       工作 "AssignTargetPath"
+       工作 "AssignTargetPath" 執行完成。
+       由於 false 條件，因此已略過工作 "AssignTargetPath"; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') 評估為 (''=='' and '.config'=='.manifest')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AssignTargetPaths" 建置完成。
+       已略過目標 "AssignTargetPaths"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "SplitResourcesByCulture" (目標 "PrepareResourceNames" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Warning"; ('@(ResxWithNoCulture)'!='') 評估為 (''!='')。
+       由於 false 條件，因此已略過工作 "Warning"; ('@(ResxWithCulture)'!='') 評估為 (''!='')。
+       由於 false 條件，因此已略過工作 "Warning"; ('@(NonResxWithCulture)'!='') 評估為 (''!='')。
+       由於 false 條件，因此已略過工作 "Warning"; ('@(NonResxWithNoCulture)'!='') 評估為 (''!='')。
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "AssignCulture" 工作。
+       工作 "AssignCulture"
+       工作 "AssignCulture" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "SplitResourcesByCulture" 建置完成。
+       由於 false 條件，因此已略過工作 "CreateManifestResourceNames"; ('@(EmbeddedResource)' != '') 評估為 ('' != '')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "CreateCustomManifestResourceNames" (目標 "PrepareResourceNames" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "CreateCustomManifestResourceNames" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "PrepareResourceNames" (目標 "_Link" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "PrepareResourceNames" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "MakeDirsForLink" (目標 "_Link" 與它有依存關係):
+       工作 "MakeDir"
+       工作 "MakeDir" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "MakeDirsForLink" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "DoLinkOutputFilesMatch" (目標 "_Link" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "VCMessage"; ('@(_OutputFileFromLink)' == '') 評估為 ('D:\碩一上\CAMD\SAMPLE\OpenGLSample\Release\OpenGLSample.exe' == '')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') 評估為 ('D:\碩一上\CAMD\SAMPLE\OpenGLSample\Release\OpenGLSample.exe' != '' and 'D:\碩一上\CAMD\SAMPLE\OpenGLSample\Release\OpenGLSample.exe' != 'D:\碩一上\CAMD\SAMPLE\OpenGLSample\Release\OpenGLSample.exe')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') 評估為 ('D:\碩一上\CAMD\SAMPLE\OpenGLSample\Release\OpenGLSample.exe' != '' and '.exe' != '' and '.exe' != '.exe')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') 評估為 ('D:\碩一上\CAMD\SAMPLE\OpenGLSample\Release\OpenGLSample.exe' != '' and 'OpenGLSample' != '' and 'OpenGLSample' != 'OpenGLSample')。
+       由於 false 條件，因此已略過工作 "VCMessage"; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) 評估為 ('' != '' and ('' == '' or '' == 'NotSet'))。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "DoLinkOutputFilesMatch" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 中的目標 "PreLinkEvent" (目標 "_Link" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Message"; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') 評估為 ('' != '' and '' != '')。
+       由於 false 條件，因此已略過工作 "Exec"; ('%(PreLinkEvent.Command)' != '') 評估為 ('' != '')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "PreLinkEvent" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 中的目標 "ComputeLinkSwitches" (目標 "Link" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeLinkSwitches" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 中的目標 "Link" (目標 "_Link" 與它有依存關係):
+       正在使用組件 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" 中的 "Link" 工作。
+       工作 "Link"
+         寫入追蹤記錄檔:
+         	Release\OpenGLSample.tlog\link.write.1.tlog
+         讀取追蹤記錄檔:
+         	Release\OpenGLSample.tlog\link.read.1.tlog
+         D:\碩一上\CAMD\SAMPLE\OPENGLSAMPLE\OPENGLSAMPLE\RELEASE\MAIN.OBJ 的輸出:
+         	D:\碩一上\CAMD\SAMPLE\OPENGLSAMPLE\RELEASE\OPENGLSAMPLE.EXE
+         	D:\碩一上\CAMD\SAMPLE\OPENGLSAMPLE\RELEASE\OPENGLSAMPLE.PDB
+         所有輸出都是最新的。
+       工作 "Link" 執行完成。
+       工作 "Message"
+         OpenGLSample.vcxproj -> D:\碩一上\CAMD\SAMPLE\OpenGLSample\Release\OpenGLSample.exe
+       工作 "Message" 執行完成。
+       由於 false 條件，因此已略過工作 "VCMessage"; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'DebugFastLink' and %(Link.ProgramDataBaseFileName) != '') 評估為 (('MT' != 'LINK' or '' != 'true' or 'True' == 'true') and
+                    DebugFull == 'DebugFastLink' and  != '')。
+       由於 false 條件，因此已略過工作 "VCMessage"; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '') 評估為 (('MT' != 'LINK' or '' != 'true' or 'True' == 'true') and
+                    DebugFull == 'true' and  != '')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "Link" 建置完成。
+       由於 false 條件，因此已略過工作 "MetaGenInputsOutputs"; ('$(EnableManagedIncrementalBuild)' == 'True') 評估為 ('false' == 'True')。
+       由於 false 條件，因此已略過工作 "ComputeMetaGenInputs"; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') 評估為 ('false'!='' and 'false'!='false')。
+       由於 false 條件，因此已略過工作 "MetaGen"; ('@(MetaGen)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "ComputeLinkImportLibraryOutputsForClean"; ('$(LinkSkippedExecution)' != 'true') 評估為 ('True' != 'true')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "AfterLink" (目標 "_Link" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AfterLink" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_Link" (目標 "_BuildLinkAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_Link" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_ALink" (目標 "_BuildLinkAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_ALink" 建置完成。
+       已略過目標 "ComputeLegacyManifestEmbedding"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_Manifest" (目標 "_BuildLinkAction" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "CallTarget"; ('$(LegacyManifestEmbedding)' == 'true') 評估為 ('' == 'true')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_Manifest" 建置完成。
+       由於 false 條件，因此已略過工作 "RegisterOutput"; ('$(LinkSkippedExecution)' != 'true' and (('$(Platform)' == 'x64' and ('$(PROCESSOR_ARCHITECTURE)' == 'AMD64' or '$(PROCESSOR_ARCHITEW6432)' == 'AMD64')) or '$(Platform)' == 'Win32')) 評估為 ('True' != 'true' and (('Win32' == 'x64' and ('x86' == 'AMD64' or 'AMD64' == 'AMD64')) or 'Win32' == 'Win32'))。
+       已略過目標 "PrepareForBuild"。先前的建置已順利完成。
+       已略過目標 "ResolveReferences"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ResolvedXDCMake" (目標 "_XdcMake" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "MSBuild"; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') 評估為 ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ResolvedXDCMake" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeCLCompileGeneratedXDCFiles" (目標 "_XdcMake" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeCLCompileGeneratedXDCFiles" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "MakeDirsForXdcMake" (目標 "_XdcMake" 與它有依存關係):
+       工作 "MakeDir"
+       工作 "MakeDir" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "MakeDirsForXdcMake" 建置完成。
+       由於 false 條件，因此已略過工作 "XdcMake"; ('@(XdcMake)' != '') 評估為 ('' != '')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_XdcMake" (目標 "_BuildLinkAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_XdcMake" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "ComputeCLCompileGeneratedSbrFiles" (目標 "_BscMake" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "ComputeCLCompileGeneratedSbrFiles" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "MakeDirsForBscMake" (目標 "_BscMake" 與它有依存關係):
+       工作 "MakeDir"
+       工作 "MakeDir" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "MakeDirsForBscMake" 建置完成。
+       由於 false 條件，因此已略過工作 "BscMake"; ('@(BscMake)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "CustomBuildStep"; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') 評估為 ('' != '' and ''=='')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_BscMake" (目標 "_BuildLinkAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_BscMake" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "_GenerateSatelliteAssemblyInputs" (目標 "CreateSatelliteAssemblies" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Warning"; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') 評估為 (''!='' and ''=='')。
+       由於 false 條件，因此已略過工作 "Warning"; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') 評估為 (''!='' and ''=='')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_GenerateSatelliteAssemblyInputs" 建置完成。
+       由於 false 條件，因此已略過工作 "ComputeIntermediateSatelliteAssemblies"; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') 評估為 ( != '')。
+       由於 false 條件，因此已略過工作 "GenerateSatelliteAssemblies"; ('@(_SatelliteAssemblyResourceInputs)' != '') 評估為 ('' != '')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "CreateSatelliteAssemblies" (目標 "_BuildLinkAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "CreateSatelliteAssemblies" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_Appverifier" (目標 "_BuildLinkAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_Appverifier" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_Deploy" (目標 "_BuildLinkAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_Deploy" 建置完成。
+       由於 false 條件，因此已略過工作 "ComputeIntermediateSatelliteAssemblies"; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') 評估為 ( != '')。
+       由於 false 條件，因此已略過工作 "_CopyFilesMarkedCopyLocal"; ('@(ReferenceCopyLocalPaths)' != '') 評估為 ('' != '')。
+       已略過目標 "AssignTargetPaths"。先前的建置已順利完成。
+       已略過目標 "_SplitProjectReferencesByFileExistence"。先前的建置已順利完成。
+       已略過目標 "_GetProjectReferenceTargetFrameworkProperties"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" 中的目標 "GetCopyToOutputDirectoryXamlAppDefs" (目標 "GetCopyToOutputDirectoryItems" 與它有依存關係):
+       工作 "AssignTargetPath"
+       工作 "AssignTargetPath" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "GetCopyToOutputDirectoryXamlAppDefs" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "GetCopyToOutputDirectoryItems" (目標 "_CopySourceItemsToOutputDirectory" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "MSBuild"; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') 評估為 ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true')。
+       工作 "AssignTargetPath"
+       工作 "AssignTargetPath" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "GetCopyToOutputDirectoryItems" 建置完成。
+       由於 false 條件，因此已略過工作 "_CopyOutOfDateSourceItemsToOutputDirectory"; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) 評估為 ( '' != '' )。
+       由於 false 條件，因此已略過工作 "_CopyOutOfDateSourceItemsToOutputDirectoryAlways"; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) 評估為 ( '' != '' )。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "_CopySourceItemsToOutputDirectory" (目標 "CopyFilesToOutputDirectory" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_CopySourceItemsToOutputDirectory" 建置完成。
+       由於 false 條件，因此已略過工作 "_CopyAppConfigFile"; ( '@(AppConfigWithTargetPath)' != '' ) 評估為 ( '' != '' )。
+       由於 false 條件，因此已略過工作 "_CopyManifestFiles"; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) 評估為 ( ''=='true' or ''=='true' )。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "_CheckForCompileOutputs" (目標 "CopyFilesToOutputDirectory" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_CheckForCompileOutputs" 建置完成。
+       由於 false 條件，因此已略過工作 "_SGenCheckForOutputs"; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) 評估為 ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto'))。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "CopyFilesToOutputDirectory" (目標 "PrepareForRun" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Copy"; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') 評估為 ('true' == 'true' and 'true' != 'true')。
+       由於 false 條件，因此已略過工作 "CopyRefAssembly"; ('$(ProduceReferenceAssembly)' == 'true' and '$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') 評估為 ('false' == 'true' and 'true' == 'true' and 'true' != 'true')。
+       由於 false 條件，因此已略過工作 "Message"; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') 評估為 ('true' == 'true' and 'true'!='true')。
+       由於 false 條件，因此已略過工作 "Copy"; ('@(AddModules)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "Copy"; ('$(_SGenDllCreated)'=='true') 評估為 ('false'=='true')。
+       由於 false 條件，因此已略過工作 "Copy"; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') 評估為 ('false'=='true' and '' != 'true' and 'true'=='true')。
+       由於 false 條件，因此已略過工作 "Copy"; ('$(_DocumentationFileProduced)'=='true') 評估為 ('false'=='true')。
+       由於 false 條件，因此已略過工作 "Copy"; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') 評估為 ('' != '')。
+       由於 false 條件，因此已略過工作 "Copy"; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) 評估為 ('' != '' or '' != '' or '' != '' or '' != '' )。
+       由於 false 條件，因此已略過工作 "Copy"; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') 評估為 ('' != 'true' and '' != '')。
+       由於 false 條件，因此已略過工作 "Message"; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') 評估為 ('' != 'true' and '' != '')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "CopyFilesToOutputDirectory" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "PrepareForRun" (目標 "_BuildLinkAction" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "PrepareForRun" 建置完成。
+       由於 false 條件，因此已略過工作 "CustomBuildStep"; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') 評估為 ('' != '' and ''=='')。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 中的目標 "PostBuildEvent" (目標 "_BuildLinkAction" 與它有依存關係):
+       由於 false 條件，因此已略過工作 "Message"; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') 評估為 ('' != '' and '' != '')。
+       由於 false 條件，因此已略過工作 "Exec"; ('%(PostBuildEvent.Command)' != '') 評估為 ('' != '')。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "PostBuildEvent" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "_BuildLinkAction" (目標 "BuildLink" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "_BuildLinkAction" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 中的目標 "BuildLink" (目標 "Build" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "BuildLink" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 中的目標 "AfterBuild" (目標 "Build" 與它有依存關係):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "AfterBuild" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 中的目標 "FinalizeBuildStatus" (目標 "Build" 與它有依存關係):
+       正在使用組件 "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "Delete" 工作。
+       工作 "Delete"
+         正在刪除檔案 "Release\OpenGLSample.tlog\unsuccessfulbuild"。
+       工作 "Delete" 執行完成。
+       工作 "Touch"
+         正在變更時間戳記 "Release\OpenGLSample.tlog\OpenGLSample.lastbuildstate"。
+       工作 "Touch" 執行完成。
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "FinalizeBuildStatus" 建置完成。
+       已略過目標 "_CheckForInvalidConfigurationAndPlatform"。先前的建置已順利完成。
+       已略過目標 "_CheckForInvalidConfigurationAndPlatform"。先前的建置已順利完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" 的檔案 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 中的目標 "Build" (進入點):
+     1>專案 "OpenGLSample.vcxproj" 中的目標 "Build" 建置完成。
+     1>專案 "D:\碩一上\CAMD\SAMPLE\OpenGLSample\OpenGLSample\OpenGLSample.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+    0 個警告
+    0 個錯誤
+
+經過時間 00:00:00.03
